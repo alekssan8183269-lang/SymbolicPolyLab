@@ -1,0 +1,10 @@
+{
+  "allowed_scientific_libraries": [
+    "sympy",
+    "scipy",
+    "numpy",
+    "math",
+    "random",
+    "matplotlib"
+  ]
+}

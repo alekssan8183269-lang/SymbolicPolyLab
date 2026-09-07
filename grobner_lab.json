@@ -1,0 +1,25 @@
+{
+  "algorithm_id": "grobner_basis_3d",
+  "title": "🏛️ Лаборатория многочленов: Базисы Грёбнера (3D)",
+  "theory": "Базис Грёбнера позволяет решать системы нелинейных полиномиальных уравнений от нескольких переменных (x, y, z), обобщая алгоритм Евклида и метод исключения Гаусса. Важнейшую роль играет порядок мономов (Monomial Ordering).",
+  "variables": ["x", "y", "z"],
+  "ordering_types": ["Lex (Лексикографический)", "DegLex (Градуированный лексикографический)", "DegRevLex (Обратный градуированный)"],
+  "inputs": [
+    {
+      "id": "poly_f1",
+      "label": "Введите первый многочлен F1 (например: x^2*y - z):",
+      "default": "x^2*y - z"
+    },
+    {
+      "id": "poly_f2",
+      "label": "Введите второй многочлен F2 (например: x*y^2 - y):",
+      "default": "x*y^2 - y"
+    }
+  ],
+  "arxiv_keywords": "Grobner basis multivariate polynomial ideal",
+  "latex_template": {
+    "environment": "aligned",
+    "commands": ["\\langle F_1, F_2 \\rangle", "\\mathcal{G}"]
+  }
+}
+

@@ -1,0 +1,29 @@
+{
+  "menu_title": "Панель управления алгоритмами ICSR",
+  "buttons": [
+    {
+      "id": "div_poly",
+      "text": "➗ Деление полиномов",
+      "bg_color": "#e8f5e9",
+      "action": "run_classic_division"
+    },
+    {
+      "id": "grobner_basis",
+      "text": "🏛️ Базис Грёбнера (3D)",
+      "bg_color": "#e0f2f1",
+      "action": "load_multivariate_poly_lab"
+    },
+    {
+      "id": "z3_logic",
+      "text": "⚡ Доказатель Z3",
+      "bg_color": "#e3f2fd",
+      "action": "load_z3_logic_lab"
+    },
+    {
+      "id": "arxiv_search",
+      "text": "🔍 Поиск на arXiv.org",
+      "bg_color": "#fff3e0",
+      "action": "search_arxiv_new"
+    }
+  ]
+}

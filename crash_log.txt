@@ -1,0 +1,310 @@
+=== CRASH REPORT ===
+Время ошибки: 2026-08-15 22:18:24
+Описание: 'PolynomialDivisionApp' object has no attribute 'tk'
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4087, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 751, in __init__
+    search_frame = tk.Frame(self)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 3354, in __init__
+    Widget.__init__(self, master, 'frame', cnf, {}, extra)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2785, in __init__
+    self._setup(master, cnf)
+    ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2752, in _setup
+    self.tk = master.tk
+              ^^^^^^^^^
+AttributeError: 'PolynomialDivisionApp' object has no attribute 'tk'
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-15 22:24:52
+Описание: 'PolynomialDivisionApp' object has no attribute 'search_arxiv_new'
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4087, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 769, in __init__
+    btn_search = tk.Button(search_frame, text="Найти сначала", command=self.search_arxiv_new, bg="#e8f5e9")
+                                                                       ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PolynomialDivisionApp' object has no attribute 'search_arxiv_new'
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-16 00:16:51
+Описание: name 'notebook' is not defined
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4248, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 786, in __init__
+    self.tab_z3 = ttk.Frame(notebook)
+                            ^^^^^^^^
+NameError: name 'notebook' is not defined. Did you mean: 'self.notebook'?
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-16 00:20:04
+Описание: name 'notebook' is not defined
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4248, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 787, in __init__
+    notebook.add(self.tab_z3, text=" Доказатель теорем (Z3) ")
+    ^^^^^^^^
+NameError: name 'notebook' is not defined. Did you mean: 'self.notebook'?
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-16 00:42:02
+Описание: 'PolynomialDivisionApp' object has no attribute 'tk'
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4276, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 1002, in __init__
+    self.load_multivariate_poly_lab() # Построит поля для Базиса Грёбнера
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4164, in load_multivariate_poly_lab
+    lab_frame = tk.LabelFrame(self, text=config["title"], font=("Arial", 11, "bold"), padx=10, pady=10, name="dynamic_lab")
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 4786, in __init__
+    Widget.__init__(self, master, 'labelframe', cnf, kw)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2785, in __init__
+    self._setup(master, cnf)
+    ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2752, in _setup
+    self.tk = master.tk
+              ^^^^^^^^^
+AttributeError: 'PolynomialDivisionApp' object has no attribute 'tk'
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-16 00:46:10
+Описание: unknown option "-font"
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4276, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 1002, in __init__
+    self.load_multivariate_poly_lab() # Построит поля для Базиса Грёбнера
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4164, in load_multivariate_poly_lab
+    lab_frame = ttk.LabelFrame(self.tab_grobner, text=config["title"], font=("Arial", 11, "bold"), padx=10, pady=10, name="dynamic_lab")
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\tkinter\ttk.py", line 758, in __init__
+    Widget.__init__(self, master, "ttk::labelframe", kw)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\tkinter\ttk.py", line 534, in __init__
+    tkinter.Widget.__init__(self, master, widgetname, kw=kw)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2791, in __init__
+    self.tk.call(
+    ~~~~~~~~~~~~^
+        (widgetName, self._w) + extra + self._options(cnf))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: unknown option "-font"
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-16 01:02:18
+Описание: name 'main_frame' is not defined
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4282, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 1002, in __init__
+    self.load_multivariate_poly_lab() # Построит поля для Базиса Грёбнера
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4214, in load_multivariate_poly_lab
+    self.txt_grobner_output = tk.Text(main_frame, font=("Courier New", 10), wrap=tk.WORD)
+                                      ^^^^^^^^^^
+NameError: name 'main_frame' is not defined. Did you mean: 'lab_frame'?
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-17 10:29:38
+Описание: name 'main_frame' is not defined
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4282, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 1002, in __init__
+    self.load_multivariate_poly_lab() # Построит поля для Базиса Грёбнера
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4214, in load_multivariate_poly_lab
+    self.txt_grobner_output = tk.Text(main_frame, font=("Courier New", 10), wrap=tk.WORD)
+                                      ^^^^^^^^^^
+NameError: name 'main_frame' is not defined. Did you mean: 'lab_frame'?
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-17 18:59:18
+Описание: name 'row_method' is not defined
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 4492, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 751, in __init__
+    self.cmb_z3_method = ttk.Combobox(row_method, values=[
+                                      ^^^^^^^^^^
+NameError: name 'row_method' is not defined
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-18 10:16:24
+Описание: 'PolynomialDivisionApp' object has no attribute 'open_readme_window'
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 5080, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 217, in __init__
+    main_menu.add_command(command=self.open_readme_window)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PolynomialDivisionApp' object has no attribute 'open_readme_window'
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-18 10:18:34
+Описание: 'PolynomialDivisionApp' object has no attribute 'open_readme_window'
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 5083, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 217, in __init__
+    main_menu.add_command(label="📖 Руководство (README)", command=self.open_readme_window)
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PolynomialDivisionApp' object has no attribute 'open_readme_window'
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-18 10:19:19
+Описание: 'PolynomialDivisionApp' object has no attribute 'open_readme_window'
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 5087, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 217, in __init__
+    main_menu.add_command(label="📖 Руководство (README)", command=self.open_readme_window)
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PolynomialDivisionApp' object has no attribute 'open_readme_window'
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-18 10:28:41
+Описание: 'PolynomialDivisionApp' object has no attribute 'open_readme_window'
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 5084, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 217, in __init__
+    main_menu.add_command(label="📖 Руководство (README)", command=self.open_readme_window)
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PolynomialDivisionApp' object has no attribute 'open_readme_window'
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-18 10:30:11
+Описание: 'PolynomialDivisionApp' object has no attribute 'open_readme_window'
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 5084, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 217, in __init__
+    main_menu.add_command(label="📖 Руководство (README)", command=self.open_readme_window)
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PolynomialDivisionApp' object has no attribute 'open_readme_window'
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-18 10:32:14
+Описание: 'PolynomialDivisionApp' object has no attribute 'open_readme_window'
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 5081, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 217, in __init__
+    main_menu.add_command(label="📖 Руководство (README)", command=self.open_readme_window)
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PolynomialDivisionApp' object has no attribute 'open_readme_window'
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-19 22:04:47
+Описание: 'PolynomialDivisionApp' object has no attribute 'run_jupyter_cell_only'
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 6104, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 866, in __init__
+    self.txt_script_input.bind("<Control-Return>", self.run_jupyter_cell_only)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PolynomialDivisionApp' object has no attribute 'run_jupyter_cell_only'
+====================
+
+=== CRASH REPORT ===
+Время ошибки: 2026-08-19 22:08:25
+Описание: 'PolynomialDivisionApp' object has no attribute 'run_jupyter_cell_only'
+
+Что ввёл пользователь: Не удалось определить (ошибка до создания интерфейса)
+
+След ошибки (Traceback):
+Traceback (most recent call last):
+  File "C:\наука\многочлены\divide_polynomials1.py", line 6145, in <module>
+    app = PolynomialDivisionApp(root)
+  File "C:\наука\многочлены\divide_polynomials1.py", line 907, in __init__
+    self.txt_script_input.bind("<Control-Return>", self.run_jupyter_cell_only)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PolynomialDivisionApp' object has no attribute 'run_jupyter_cell_only'
+====================
+
